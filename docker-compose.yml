@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./web-sample-frontend  # Path to the frontend Dockerfile directory
+    ports:
+      - "80:80"  # Map port 80 of the host to port 80 of the frontend container
+
+  backend:
+    build:
+      context: ./web-sample-backend  # Path to the backend Dockerfile directory
+    ports:
+      - "8080:8080"  # Map port 8080 of the host to port 8080 of the backend container

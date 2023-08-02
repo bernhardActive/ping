@@ -1,0 +1,8 @@
+app\service\api\IUserService.class
+app\repository\impl\UserRepository.class
+app\dto\UserDto.class
+app\StartApplication.class
+app\entity\User.class
+app\repository\api\IUserRepository.class
+app\controller\UserController.class
+app\service\impl\UserService.class
